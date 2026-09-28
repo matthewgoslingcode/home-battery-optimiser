@@ -1,4 +1,4 @@
-# AxleProject
+# home-battery-optimiser
 
 Home Assistant [pyscript](https://github.com/custom-components/pyscript) automations for a GivEnergy home battery (via GivTCP). Manages charging and discharging cycles depending on solar (Solcast API) and temperature data (HA local weather data) and factoring in changes for Axle Energy Virtual Power Plant  events and the use of aircon and a heat pump.
 
