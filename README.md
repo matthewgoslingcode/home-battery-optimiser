@@ -21,4 +21,4 @@ Home Assistant [pyscript](https://github.com/custom-components/pyscript) automat
 
 ## Credits
 
-The code that fetches events from the Axle Energy API (`AxleApi` in `custom_axle.py`) is based on [`api.py`](https://github.com/deanhalllincoln/ha-axle-vpp/blob/main/custom_components/axle_vpp/api.py) from [deanhalllincoln/ha-axle-vpp](https://github.com/deanhalllincoln/ha-axle-vpp). Thanks to Dean for making it available.
+The code that fetches events from the Axle Energy API (`AxleApi` in `custom_axle.py`) is based on [`api.py`](https://github.com/deanhalllincoln/ha-axle-vpp/blob/main/custom_components/axle_vpp/api.py) from [deanhalllincoln/ha-axle-vpp](https://github.com/deanhalllincoln/ha-axle-vpp). Used with permission ([ha-axle-vpp#27](https://github.com/deanhalllincoln/ha-axle-vpp/issues/27)). Thanks to Dean for making it available.
