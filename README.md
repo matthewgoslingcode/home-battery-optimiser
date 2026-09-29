@@ -1,6 +1,6 @@
 # home-battery-optimiser
 
-Home Assistant [pyscript](https://github.com/custom-components/pyscript) automations for a GivEnergy home battery (via GivTCP). Manages charging and discharging cycles depending on solar (Solcast API) and temperature data (HA local weather data) and factoring in changes for Axle Energy Virtual Power Plant  events and the use of aircon and a heat pump.
+Pyscript automations for Home Assistant that manage a GivEnergy home battery (via GivTCP). Each night the automations set the battery's charge and discharge schedule from tomorrow's solar forecast (Solcast API) and temperature forecast (Home Assistant's weather data), and estimate how much energy the air conditioning and a Vaillant heat pump will use. They also pre-charge the battery ahead of Axle Energy Virtual Power Plant events. The automation sets Home Assistant settings over MQTT and the heat pump settings are set over ebusd.
 
 ## What it does
 
